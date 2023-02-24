@@ -4,20 +4,25 @@ const containerDom = document.querySelector(".container");
 for (let i = 1; i <= 100; i++ ) {
     const quadratino = document.createElement("div");
     quadratino.classList.add("square");
-    quadratino.append(i);
+    // quadratino.append(i);
     containerDom.append(quadratino);
 
 
 
 
     if ( i%15 == 0){
-        console.log("fizzbuzz")
+        // console.log("fizzbuzz")
+        quadratino.append("fizzbuzz");
     } else if ( i%3 == 0){       
-        console.log("fizz");        
+        // console.log("fizz");
+        quadratino.append("fizz");        
     } else if ( i%5 == 0){
-        console.log("buzz")
+        // console.log("buzz")
+        quadratino.append("buzz");
     }else{
-        console.log(i);
+        // console.log(i);
+        quadratino.append(i);
+        
     }
 }
 
