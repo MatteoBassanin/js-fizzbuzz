@@ -15,7 +15,9 @@ for (let i = 1; i <= 100; i++ ) {
         quadratino.append("fizzbuzz");
     } else if ( i%3 == 0){       
         // console.log("fizz");
-        quadratino.append("fizz");        
+        quadratino.append("fizz");
+        quadratino.classList.remove("square");
+        quadratino.classList.add("square_fizz");        
     } else if ( i%5 == 0){
         // console.log("buzz")
         quadratino.append("buzz");

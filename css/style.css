@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: blue;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -17,8 +21,24 @@
     width: 80px;
     margin: 10px;
     background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-center{
+.square_fizz{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    background-color: rgb(11, 255, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h1{
     text-align: center;
+    color: white;
 }
