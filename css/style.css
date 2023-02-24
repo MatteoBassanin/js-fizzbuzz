@@ -19,7 +19,7 @@ body{
 .square{
     height: 80px;
     width: 80px;
-    margin: 10px;
+    margin: 13px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ body{
 .square_fizz{
     height: 80px;
     width: 80px;
-    margin: 10px;
+    margin: 13px;
     background-color: rgb(11, 255, 89);
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body{
 .square_buzz{
     height: 80px;
     width: 80px;
-    margin: 10px;
+    margin: 13px;
     background-color: rgb(255, 11, 198);
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ body{
 .square_fizzbuzz{
     height: 80px;
     width: 80px;
-    margin: 10px;
+    margin: 13px;
     background-color: rgb(11, 243, 255);
     display: flex;
     justify-content: center;
@@ -60,4 +60,5 @@ body{
 h1{
     text-align: center;
     color: white;
+    padding-bottom: 30px;
 }
